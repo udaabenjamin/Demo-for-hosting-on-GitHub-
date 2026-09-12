@@ -1,0 +1,86 @@
+body {
+    background-color: grey;
+    background-image   
+    : url("images/paypal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+   container {
+            width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+   }
+        /* Decided to put all the boxex inside a container and then move just the container */
+        header {
+            /* height: 100px; */
+            /* width: 1024px; */
+            /* background-color: red; */
+            /*margin-left: auto;
+            margin-right: auto; */
+             text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        img {
+            height: 80px;
+
+        }
+
+
+        nav {
+            height: 100px;
+            /*width: 1024px; */
+            background-color: black;
+             /*margin-left: auto;
+            margin-right: auto; */
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+            
+        
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        main {
+            height: 400px;
+            /* width: 1024px; */
+             /* margin-left: auto;
+            margin-right: auto; */
+            text-align:center ;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            line-height: 23px;
+
+            background-color: rgb(193, 107, 210, 0.7);
+
+        }
+        p {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        main a {
+            text-decoration: underline;
+        }
+
+        footer {
+            height: 100px;
+            /* width: 1024px; */
+            background-color: rgb(7, 7, 7, 0.9);
+             /* margin-left: auto;
+            margin-right: auto;*/
+            padding-bottom: 15px;
+            color: aliceblue;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
