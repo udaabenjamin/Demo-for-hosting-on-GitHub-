@@ -3,39 +3,1123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arys tech gadgets</title>
-    <meta name="description" content="No 1 tech related gadget plug for tetiary institues" />
-    <link rel="stylesheet" href="styles.css" />
- 
-</head>
-<body>
-    <div class="container">
-    <header>
-        <img src="./images/paypal.png" alt="Arvys gadget logo" />
-    </header>
-    <nav>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="./contactus.html" target="_blank">Contact Us</a>
-        <a href="#">FAQ</a>
-    </nav>
-    <main>
-        <h1>
-            Power Up Your Everyday
-        </h1>
 
-        <p>
-            discover the latest tech gadgets designed to make life smarter, easier, and more exciting.
-            From innovative accessories and must-have electronics to smart devices and cutting-edge gear, we bring you quality technology at great value. Explore our collection and find the perfect gadgets to upgrade your everyday experience. <br>
-            <a href="mailto:udaabenjamin@gmail.com?subject=make Purchase"> MAKE ORDER</a>            
-        </p>
+    <title>Healthy Recipe Finder</title>
+
+    <meta
+        name="description"
+        content="Healthy Recipe Finder helps you discover simple, delicious and healthy meals."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="site-header" id="home">
+
+        <div class="container nav-container">
+
+            <!-- LOGO -->
+            <a href="#home" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span>Healthy Recipe Finder</span>
+            </a>
+
+            <!-- CENTER NAVIGATION -->
+            <nav class="navigation" id="mainNavigation">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#recipes">Recipes</a>
+                <a href="#how-it-works">How It Works</a>
+
+            </nav>
+
+            <!-- RIGHT SIDE -->
+            <div class="nav-right">
+
+                <a href="#recipes" class="nav-button">
+                    Browse Recipes
+                </a>
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section class="hero-section">
+
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    SIMPLE • HEALTHY • DELICIOUS
+                </p>
+
+                <h1>
+                    Healthy meals,<br>
+                    zero fuss.
+                </h1>
+
+                <p class="hero-text">
+                    Discover simple and delicious recipes made with everyday
+                    ingredients. Eat better without making cooking complicated.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#recipes" class="primary-button">
+                        Start Exploring
+                    </a>
+
+                    <a href="#how-it-works" class="secondary-button">
+                        How It Works
+                    </a>
+
+                </div>
+
+                <!-- HERO IMAGE -->
+                <div class="hero-image-wrapper">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1400&q=85"
+                        alt="Healthy colorful salad"
+                        class="hero-image"
+                    >
+
+                    <div class="hero-image-label">
+                        <span>🥗</span>
+                        Fresh & Healthy
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BENEFITS
+        ========================== -->
+        <section class="benefits-section">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="eyebrow">
+                        WHY YOU'LL LOVE IT
+                    </p>
+
+                    <h2>
+                        What you'll get
+                    </h2>
+
+                    <p>
+                        Everything you need to make healthier meals easier.
+                    </p>
+
+                </div>
+
+
+                <div class="benefits-grid">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            🥗
+                        </div>
+
+                        <h3>
+                            Simple recipes
+                        </h3>
+
+                        <p>
+                            Easy-to-follow recipes using ingredients you can
+                            find without searching everywhere.
+                        </p>
+
+                    </article>
+
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            ⏱️
+                        </div>
+
+                        <h3>
+                            Quick to make
+                        </h3>
+
+                        <p>
+                            Find practical meals that fit into busy school,
+                            work and everyday schedules.
+                        </p>
+
+                    </article>
+
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            ❤️
+                        </div>
+
+                        <h3>
+                            Healthy choices
+                        </h3>
+
+                        <p>
+                            Discover balanced meals that make eating healthy
+                            enjoyable and realistic.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about-section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85"
+                        alt="Fresh healthy vegetables"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="eyebrow">
+                        ABOUT HEALTHY RECIPE FINDER
+                    </p>
+
+                    <h2>
+                        Healthy eating shouldn't feel complicated.
+                    </h2>
+
+                    <p>
+                        Healthy Recipe Finder was created to make discovering
+                        nutritious meals easier for everyone.
+                    </p>
+
+                    <p>
+                        Instead of spending hours deciding what to cook,
+                        explore simple recipes that are practical, tasty and
+                        easy to understand.
+                    </p>
+
+                    <div class="about-points">
+
+                        <div>
+                            <span>✓</span>
+                            Easy ingredients
+                        </div>
+
+                        <div>
+                            <span>✓</span>
+                            Simple instructions
+                        </div>
+
+                        <div>
+                            <span>✓</span>
+                            Everyday healthy meals
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RECIPES
+        ========================== -->
+        <section class="recipes-section" id="recipes">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            EXPLORE OUR RECIPES
+                        </p>
+
+                        <h2>
+                            Find something delicious
+                        </h2>
+
+                    </div>
+
+                    <p class="section-description">
+                        Browse meals by category and discover your next
+                        favorite healthy dish.
+                    </p>
+
+                </div>
+
+
+                <!-- FILTERS -->
+                <div class="recipe-filters">
+
+                    <button
+                        class="filter-button active"
+                        data-filter="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        data-filter="breakfast"
+                    >
+                        Breakfast
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        data-filter="lunch"
+                    >
+                        Lunch
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        data-filter="dinner"
+                    >
+                        Dinner
+                    </button>
+
+                </div>
+
+
+                <!-- RECIPE GRID -->
+                <div class="recipe-grid">
+
+
+                    <!-- RECIPE 1 -->
+                    <article
+                        class="recipe-card"
+                        data-category="breakfast"
+                        data-title="Banana Oat Pancakes"
+                        data-time="15 minutes"
+                        data-category-name="Breakfast"
+                        data-description="Soft and delicious pancakes made with bananas and oats."
+                        data-ingredients="Banana,Oats,Egg,Milk,Cinnamon"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=85"
+                                alt="Banana oat pancakes"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Breakfast
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 15 min</span>
+                                <span>🥞 Easy</span>
+                            </div>
+
+                            <h3>
+                                Banana Oat Pancakes
+                            </h3>
+
+                            <p>
+                                Fluffy pancakes made with simple healthy
+                                ingredients.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECIPE 2 -->
+                    <article
+                        class="recipe-card"
+                        data-category="lunch"
+                        data-title="Chicken Avocado Bowl"
+                        data-time="25 minutes"
+                        data-category-name="Lunch"
+                        data-description="A filling bowl combining chicken, avocado, vegetables and grains."
+                        data-ingredients="Chicken breast,Avocado,Rice,Lettuce,Tomatoes,Lime"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+                                alt="Healthy chicken avocado bowl"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Lunch
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 25 min</span>
+                                <span>🍗 High Protein</span>
+                            </div>
+
+                            <h3>
+                                Chicken Avocado Bowl
+                            </h3>
+
+                            <p>
+                                A colorful and filling lunch packed with
+                                fresh ingredients.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECIPE 3 -->
+                    <article
+                        class="recipe-card"
+                        data-category="dinner"
+                        data-title="Garden Vegetable Pasta"
+                        data-time="30 minutes"
+                        data-category-name="Dinner"
+                        data-description="A comforting pasta dish loaded with colorful garden vegetables."
+                        data-ingredients="Pasta,Bell pepper,Tomatoes,Spinach,Onion,Olive oil"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                                alt="Garden vegetable pasta"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Dinner
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 30 min</span>
+                                <span>🍝 Easy</span>
+                            </div>
+
+                            <h3>
+                                Garden Vegetable Pasta
+                            </h3>
+
+                            <p>
+                                A delicious pasta meal filled with fresh
+                                vegetables.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECIPE 4 -->
+                    <article
+                        class="recipe-card"
+                        data-category="breakfast"
+                        data-title="Berry Yogurt Bowl"
+                        data-time="10 minutes"
+                        data-category-name="Breakfast"
+                        data-description="A refreshing yogurt bowl topped with berries and crunchy toppings."
+                        data-ingredients="Greek yogurt,Strawberries,Blueberries,Banana,Granola,Honey"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=85"
+                                alt="Berry yogurt bowl"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Breakfast
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 10 min</span>
+                                <span>🍓 Fresh</span>
+                            </div>
+
+                            <h3>
+                                Berry Yogurt Bowl
+                            </h3>
+
+                            <p>
+                                A refreshing breakfast bowl with fruit,
+                                yogurt and granola.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECIPE 5 -->
+                    <article
+                        class="recipe-card"
+                        data-category="lunch"
+                        data-title="Fresh Garden Salad"
+                        data-time="12 minutes"
+                        data-category-name="Lunch"
+                        data-description="A fresh crunchy salad made with colorful vegetables."
+                        data-ingredients="Lettuce,Cucumber,Tomatoes,Carrot,Avocado,Lemon"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85"
+                                alt="Fresh garden salad"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Lunch
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 12 min</span>
+                                <span>🥬 Fresh</span>
+                            </div>
+
+                            <h3>
+                                Fresh Garden Salad
+                            </h3>
+
+                            <p>
+                                Crisp vegetables combined into a colorful
+                                everyday salad.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RECIPE 6 -->
+                    <article
+                        class="recipe-card"
+                        data-category="dinner"
+                        data-title="Healthy Rice Bowl"
+                        data-time="25 minutes"
+                        data-category-name="Dinner"
+                        data-description="A balanced rice bowl with vegetables, grains and protein."
+                        data-ingredients="Brown rice,Chicken,Broccoli,Carrot,Avocado,Sesame"
+                    >
+
+                        <div class="recipe-image-wrapper">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=85"
+                                alt="Healthy rice bowl"
+                                loading="lazy"
+                            >
+
+                            <span class="recipe-category">
+                                Dinner
+                            </span>
+
+                        </div>
+
+                        <div class="recipe-content">
+
+                            <div class="recipe-meta">
+                                <span>⏱ 25 min</span>
+                                <span>🍚 Balanced</span>
+                            </div>
+
+                            <h3>
+                                Healthy Rice Bowl
+                            </h3>
+
+                            <p>
+                                A satisfying bowl combining grains,
+                                vegetables and protein.
+                            </p>
+
+                            <button class="view-recipe">
+                                View Recipe →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURED
+        ========================== -->
+        <section class="featured-section">
+
+            <div class="container featured-box">
+
+                <div class="featured-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85"
+                        alt="Healthy vegetable meal"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <div class="featured-content">
+
+                    <p class="eyebrow">
+                        TODAY'S INSPIRATION
+                    </p>
+
+                    <h2>
+                        Make healthy eating a habit, not a chore.
+                    </h2>
+
+                    <p>
+                        Start with one simple meal today. Small choices can
+                        become healthy habits when they are easy to maintain.
+                    </p>
+
+                    <a href="#recipes" class="primary-button">
+                        Find a Recipe
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+        <section
+            class="how-section"
+            id="how-it-works"
+        >
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="eyebrow">
+                        HOW IT WORKS
+                    </p>
+
+                    <h2>
+                        Healthy meals in three simple steps
+                    </h2>
+
+                    <p>
+                        Finding your next meal doesn't have to be complicated.
+                    </p>
+
+                </div>
+
+
+                <div class="steps-grid">
+
+                    <article class="step-card">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Choose a recipe
+                        </h3>
+
+                        <p>
+                            Browse our collection and select a meal that
+                            matches what you want.
+                        </p>
+
+                    </article>
+
+
+                    <article class="step-card">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Check ingredients
+                        </h3>
+
+                        <p>
+                            View the ingredients and preparation information
+                            before you start cooking.
+                        </p>
+
+                    </article>
+
+
+                    <article class="step-card">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Start cooking
+                        </h3>
+
+                        <p>
+                            Follow the simple instructions and enjoy your
+                            healthy homemade meal.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TIPS
+        ========================== -->
+        <section class="tips-section">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="eyebrow">
+                        HEALTHY HABITS
+                    </p>
+
+                    <h2>
+                        Small changes make a difference
+                    </h2>
+
+                </div>
+
+
+                <div class="tips-grid">
+
+                    <div class="tip">
+
+                        <span>🥦</span>
+
+                        <div>
+                            <h3>
+                                Add more vegetables
+                            </h3>
+
+                            <p>
+                                Include different colors of vegetables in
+                                your meals.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tip">
+
+                        <span>💧</span>
+
+                        <div>
+                            <h3>
+                                Stay hydrated
+                            </h3>
+
+                            <p>
+                                Keep water nearby and make hydration part of
+                                your daily routine.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tip">
+
+                        <span>🍎</span>
+
+                        <div>
+                            <h3>
+                                Choose whole foods
+                            </h3>
+
+                            <p>
+                                Whenever possible, choose fresh and minimally
+                                processed ingredients.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+        <section class="cta-section">
+
+            <div class="container cta-box">
+
+                <p class="eyebrow">
+                    READY TO START?
+                </p>
+
+                <h2>
+                    Your next healthy meal is waiting.
+                </h2>
+
+                <p>
+                    Explore simple recipes and find something delicious
+                    today.
+                </p>
+
+                <a href="#recipes" class="primary-button light-button">
+                    Browse Recipes
+                </a>
+
+            </div>
+
+        </section>
+
     </main>
-<footer>
-    ARVY'S WEB DEVELOPMENT @ 2026
-</footer>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">🌿</span>
+                    <span>Healthy Recipe Finder</span>
+                </a>
+
+                <p>
+                    Simple recipes for healthier everyday meals.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#recipes">Recipes</a>
+                <a href="#how-it-works">How It Works</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            <p>
+                © 2026 Healthy Recipe Finder. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         RECIPE MODAL
+    ========================== -->
+    <div
+        class="modal"
+        id="recipeModal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay"></div>
+
+        <div class="recipe-modal">
+
+            <button
+                class="modal-close"
+                id="recipeModalClose"
+                aria-label="Close recipe"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow" id="modalCategory">
+                RECIPE
+            </p>
+
+            <h2 id="modalTitle">
+                Recipe
+            </h2>
+
+            <div class="modal-meta">
+                <span id="modalTime">⏱ 20 minutes</span>
+            </div>
+
+            <p id="modalDescription">
+                Recipe description.
+            </p>
+
+            <h3>
+                Ingredients
+            </h3>
+
+            <ul id="modalIngredients"></ul>
+
+            <h3>
+                Quick Instructions
+            </h3>
+
+            <ol class="instructions">
+
+                <li>
+                    Prepare and wash your ingredients.
+                </li>
+
+                <li>
+                    Cook the main ingredients according to the recipe.
+                </li>
+
+                <li>
+                    Combine everything and season to taste.
+                </li>
+
+                <li>
+                    Serve fresh and enjoy.
+                </li>
+
+            </ol>
+
+        </div>
+
     </div>
-   
+
+
+    <!-- =========================
+         SPIN THE COUPON BUTTON
+    ========================== -->
+    <button
+        class="coupon-floating-button"
+        id="couponOpenButton"
+    >
+        🎁
+        <span>Spin the Coupon</span>
+    </button>
+
+
+    <!-- =========================
+         COUPON MODAL
+    ========================== -->
+    <div
+        class="modal coupon-modal-wrapper"
+        id="couponModal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay"></div>
+
+        <div class="coupon-modal">
+
+            <button
+                class="modal-close"
+                id="couponModalClose"
+                aria-label="Close coupon"
+            >
+                ×
+            </button>
+
+
+            <div class="coupon-header">
+
+                <h4>
+                    Spin the Coupon
+                </h4>
+
+                <h3>
+                        You get <strong>3 free spins every day.</strong>
+                </h3>
+
+            </div>
+
+
+            <!-- WHEEL -->
+            <div class="wheel-area">
+
+                <div class="wheel-pointer">
+                    ▼
+                </div>
+
+
+                <div
+                    class="coupon-wheel"
+                    id="couponWheel"
+                >
+
+                    <!-- SIX EQUAL SECTIONS -->
+
+                    <div class="wheel-label label-1">
+                        <span>10% OFF</span>
+                    </div>
+
+                    <div class="wheel-label label-2">
+                        <span>FREE RECIPE</span>
+                    </div>
+
+                    <div class="wheel-label label-3">
+                        <span>TRY AGAIN</span>
+                    </div>
+
+                    <div class="wheel-label label-4">
+                        <span>20% OFF</span>
+                    </div>
+
+                    <div class="wheel-label label-5">
+                        <span>BONUS</span>
+                    </div>
+
+                    <div class="wheel-label label-6">
+                        <span>15% OFF</span>
+                    </div>
+
+
+                    <div class="wheel-center">
+                        🌿
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="spin-button"
+                id="spinButton"
+            >
+                SPIN NOW
+            </button>
+
+
+            <p
+                class="spin-message"
+                id="spinMessage"
+            >
+                Good luck! 🎉
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
-Udaab Benjamin
